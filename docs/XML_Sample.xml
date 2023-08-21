@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<claims>
+    <claim>
+        <claimID>12345678</claimID>
+        <claimCheckCode>7620703633735</claimCheckCode>
+        <preAuthorizationCodes>AC2546521,AC03948</preAuthorizationCodes>
+        <physicianID>DR0025</physicianID>
+
+        <memberNo>10908483</memberNo>
+        <cardSerialNo>GRAYA400E4124</cardSerialNo>
+        <surname>HAMMOND</surname>
+        <otherNames>JULIET</otherNames>
+        <dateOfBirth>1952-08-01</dateOfBirth>
+        <gender>F</gender>
+        <hospitalRecNo>A9/007840</hospitalRecNo>
+        <isDependant>0</isDependant>
+
+        <typeOfService>IPD</typeOfService>
+        <isUnbundled>0</isUnbundled>
+        <includesPharmacy>1</includesPharmacy>
+        <typeOfAttendance>EAE</typeOfAttendance>
+        <serviceOutcome>DISC</serviceOutcome>
+
+        <dateOfService>2016-09-07</dateOfService>
+        <dateOfService>2016-09-10</dateOfService>
+
+        <specialtyAttended>OPDC</specialtyAttended>
+        <specialtyAttended>MEDI</specialtyAttended>
+        <specialtyAttended>DENT</specialtyAttended>
+
+        <investigation>
+            <serviceDate>2016-09-10</serviceDate>
+            <gdrgCode>INVE09D</gdrgCode>
+        </investigation>
+
+        <investigation>
+            <serviceDate>2016-09-10</serviceDate>
+            <gdrgCode>INVE09D</gdrgCode>
+        </investigation>
+
+        <procedure>
+            <serviceDate>2016-09-08</serviceDate>
+            <gdrgCode>DENT01A</gdrgCode>
+            <icd10>B37</icd10>
+            <diagnosis>Candidiasis</diagnosis>
+        </procedure>
+
+        <procedure>
+            <serviceDate>2016-09-08</serviceDate>
+            <gdrgCode>DENT05A</gdrgCode>
+            <icd10>B37</icd10>
+            <diagnosis>Candidiasis</diagnosis>
+        </procedure>
+
+        <diagnosis>
+            <gdrgCode>MEDI28A</gdrgCode>
+            <icd10>B37</icd10>
+            <diagnosis>Candidiasis</diagnosis>
+        </diagnosis>
+
+        <diagnosis>
+            <gdrgCode>MEDI06A</gdrgCode>
+            <icd10>B37</icd10>
+            <diagnosis>Candidiasis</diagnosis>
+        </diagnosis>
+
+        <medicine>
+            <medicineCode>GLIBENTA1</medicineCode>
+            <dispensedQty>120</dispensedQty>
+            <serviceDate>2016-09-07</serviceDate>
+            <prescription>
+                <dose>2 Tablet</dose>
+                <frequency>2 DAILY</frequency>
+                <duration>2 MONTHS</duration>
+                <unparsed>ii bid 2/12</unparsed>
+            </prescription>
+        </medicine>
+
+        <medicine>
+            <medicineCode>GLIBENTA1</medicineCode>
+            <dispensedQty>120</dispensedQty>
+            <serviceDate>2016-09-07</serviceDate>
+            <prescription>
+                <dose>1 Tablet</dose>
+                <frequency>2 DAILY</frequency>
+                <duration>2 MONTHS</duration>
+                <unparsed>1 Tablets x 2 Daily x 2 Months</unparsed>
+            </prescription>
+        </medicine>
+		
+		<principalGDRG>MEDI28A</principalGDRG>
+		
+        <referralInfo>
+            <claimCheckCode>3624230265547</claimCheckCode>
+            <facilityID>GRA-HSP-02</facilityID>
+            <facilityName>Korlebu Teaching Hospital</facilityName>
+        </referralInfo>
+
+    </claim>
+</claims>

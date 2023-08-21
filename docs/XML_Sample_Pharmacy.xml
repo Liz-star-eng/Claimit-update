@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<claims>
+    <claim>
+        <claimID>12345678</claimID>
+        <claimCheckCode>76207</claimCheckCode>
+        <memberNo>10908483</memberNo>
+        <surname>HAMMOND</surname>
+        <otherNames>JULIET</otherNames>
+        <dateOfBirth>1952-08-01</dateOfBirth>
+        <gender>F</gender>
+        <hospitalRecNo>A9/007840</hospitalRecNo>
+        <isDependant>0</isDependant>
+        <typeOfService>PHC</typeOfService>
+        <dateOfService>2023-08-10</dateOfService>
+        <medicine>
+            <medicineCode>GLIBENTA1</medicineCode>
+            <dispensedQty>120</dispensedQty>
+            <serviceDate>2022-08-10</serviceDate>
+            <prescription>
+                <dose>1 Tablet</dose>
+                <frequency>2 DAILY</frequency>
+                <duration>2 MONTHS</duration>
+                <unparsed></unparsed>
+            </prescription>
+        </medicine>
+        <medicine>
+            <medicineCode>DICLOFIN1</medicineCode>
+            <dispensedQty>1</dispensedQty>
+            <serviceDate>2023-08-10</serviceDate>
+            <prescription>
+                <dose></dose>
+                <frequency></frequency>
+                <duration></duration>
+                <unparsed>75MG STAT</unparsed>
+            </prescription>
+        </medicine>
+        <medicine>
+            <medicineCode>AMLODITA2</medicineCode>
+            <dispensedQty>30</dispensedQty>
+            <serviceDate>2023-08-10</serviceDate>
+            <prescription>
+                <dose></dose>
+                <frequency></frequency>
+                <duration></duration>
+                <unparsed>10MG OD X 30 DAYS</unparsed>
+            </prescription>
+        </medicine>
+        <referralInfo>
+            <claimCheckCode></claimCheckCode>
+            <facilityName>Test Health Centre</facilityName>
+        </referralInfo>
+    </claim>
+    <claim>
+        <claimID>1234523232</claimID>
+        <claimCheckCode>76254</claimCheckCode>
+        <memberNo>10908444</memberNo>
+        <surname>HAMMOND</surname>
+        <otherNames>JOSEPH</otherNames>
+        <dateOfBirth>1952-08-01</dateOfBirth>
+        <gender>M</gender>
+        <hospitalRecNo>A9/007833</hospitalRecNo>
+        <isDependant>0</isDependant>
+        <typeOfService>PHC</typeOfService>
+        <dateOfService>2023-08-10</dateOfService>
+       <medicine>
+            <medicineCode>GLIBENTA1</medicineCode>
+            <dispensedQty>120</dispensedQty>
+            <serviceDate>2023-08-10</serviceDate>
+            <prescription>
+                <dose></dose>
+                <frequency></frequency>
+                <duration></duration>
+                <unparsed>1 Tablets x 2 Daily x 2 Months</unparsed>
+            </prescription>
+        </medicine>
+        <referralInfo>
+            <claimCheckCode></claimCheckCode>
+            <facilityName>Test Health Centre</facilityName>
+        </referralInfo>
+    </claim>
+</claims>
