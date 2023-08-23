@@ -16,14 +16,13 @@
                     <img src="images/nhis.png" alt="">
                 </a>
                 <ul>
-                    <i class="fa fa-bars" class="bar" id="bar"></i>
                 </ul>
             </nav>
             <section class="mainContent" >
                 <div class="" >
-                    <aside class="rightBar modal" id="myModal">
+                    <aside class="rightBar modal" id="mySidenav">
                         <section class="btn  modal-content">
-                            <span class="close"><i class="fa fa-close"></i></span>
+                            <span class="close" onclick="closeNav()"><i class="fa fa-close"></i></span>
                             <a href="docs/CLAIM-it User's Manual Quick Guide(HMS users) v2.0.pdf" download><button><i class="fa fa-download" aria-hidden="true" title="download User Manual"></i>User Manual</button></a>
                             <a href="docs/ClaimIT_XML_specifications 2.1.pdf" download><button><i class="fa fa-download" aria-hidden="true"></i> XML Specifications</button></a>
                             <a href="docs/Installation Steps_Centralized.pdf" download><button><i class="fa fa-download" aria-hidden="true"></i> installation steps </button></a>
@@ -34,12 +33,13 @@
                     </aside>
                 </div>
                 <section class="middle">
-                     <h2><i class="fa fa-cog"></i> Available Updates</h2>
+                    <div class="updates">
+                        <i class="fa fa-bars icon" onclick="openNav()"></i>
+                        <h2><i class="fa fa-cog"></i> Available Updates</h2>
+                    </div>
                     <div class="middleContent">
                         <div id="Sept-23-Update" class="tabContent">
-                        <h3>Release Update – September 1, 2023</h3>
-                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis possimus reiciendis aliquam voluptate vel praesentium deserunt ut perferendis ipsa deleniti!</p> -->
-                                                        <br>
+                        <h3>Release Update – September 1, 2023</h3>                                                        <br>
                             <h3>New + Improved</h3>
                             <hr>
                             <ul class="main-points">
@@ -130,12 +130,15 @@
                 </section>
                 <aside class="leftBar">
                     <div class="leftSideBar">
-                            <p>Update Release <i class="fa fa-arrow-down"></i> :</p>   
+                        <div>
+                            <p class="first-P">Update Release <i class="fa fa-arrow-down"></i> :</p> 
+                            <!-- <p class="second-P">Updates :</p>    -->
+                        </div>
                         <div class="tab">
-                            <button class="tablinks" onclick="openUpdate(event, 'Sept-23-Update')" id="defaultOpen"><i class="fa fa-calendar-check-o"></i> Sept-23-Update</button>
-                            <button class="tablinks" onclick="openUpdate(event, 'Feb-23-Update')"><i class="fa fa-calendar-check-o"></i> Feb-23-Update</button>
+                            <button class="tablinks" onclick="openUpdate(event, 'Sept-23-Update')" id="defaultOpen"><i class="fa fa-calendar-check-o"></i> Sept-23-update</button>
+                            <button class="tablinks" onclick="openUpdate(event, 'Feb-23-Update')"><i class="fa fa-calendar-check-o"></i> Feb-23-update</button>
                             <!-- <button class="tablinks" onclick="openUpdate(event, '3rdQuarter')"><i class="fa fa-calendar-check-o"></i> 3rd Quarter</button> -->
-                            <button class="tablinks" onclick="openUpdate(event, 'Oct-22-Update')"><i class="fa fa-calendar-check-o"></i> Oct-22-Update</button>
+                            <button class="tablinks" onclick="openUpdate(event, 'Oct-22-Update')"><i class="fa fa-calendar-check-o"></i> Oct-22-update</button>
                         </div>
                     </div>    
                 </aside>

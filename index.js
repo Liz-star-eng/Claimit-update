@@ -15,21 +15,18 @@ function openUpdate(evt, releaseMonth) {
 document.getElementById("defaultOpen").click();
 
 //Responsiveness
-// Modal
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("bar");
-var span = document.getElementsByClassName("close")[0];
 
- function openNav() {
-  modal.style.display =  "block";
+var modal = document.getElementById("mySidenav");
+function openNav() {
+  modal.style.width = "60%";
 }
 
-span.onclick = function() {
-  modal.style.display = "none";
+function closeNav() {
+  modal.style.width = "0";
 }
 
 window.onclick = function(event) {
   if (event.target == modal) {
-    modal.style.display = "none";
+    modal.style.width = "0";
   }
 }
