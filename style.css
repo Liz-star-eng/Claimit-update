@@ -196,13 +196,13 @@ this is the navigation bar on the Right*/
 }
 
 /* Dropdown */
-.dropdown {
+.download {
   position: relative;
   display: inline-block;
   width: 130px;
 }
 
-.dropdown-content {
+.download-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -214,14 +214,14 @@ this is the navigation bar on the Right*/
   overflow-y: scroll;
 }
 
-.dropdown-content a {
+.download-content a {
   color: black;
   padding: 10px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {
+.download-content a:hover {
   background-color: rgb(227, 223, 223);
  color: #26592b;
   border-radius: 10px;
@@ -229,7 +229,7 @@ this is the navigation bar on the Right*/
   font-weight: bold;
 }
 
-.dropdown:hover .dropdown-content {
+.download:hover .download-content {
   display: block;
 }
 
@@ -347,8 +347,8 @@ p {
       transition: 0.5s;
       padding: 1rem 0;
       border-left: none;height: 50vh;
-      border-radius: 10px;
-      height: 60%;
+      border-bottom-left-radius: 10px;
+      height: 100%;
   }
   .btn {
     right: 0;
@@ -356,12 +356,13 @@ p {
   }
 .close {
   display: block;
-  margin: 1px 4px 0 27rem;
+  margin: 1px 4px 0 48rem;
   padding: 5px ;
   line-height: 0;
+  font-size: 24px;
 }
 /* dropdown */
-.dropdown-content {
+.download-content {
   margin: 0 0 0 8rem;
 }
   .leftBar {
@@ -379,17 +380,9 @@ p {
     padding: 5px 1rem;
     font-size: 26px;
   }
-  #mySidenav {
-    height: 100%;
-  }
   .middle {
     margin-top: 10%;
   }
-  
-    .dropdown-content {
-      position: relative;
-      margin-left: 0;
-    }
 }
 
 /* Phone screen */
@@ -464,10 +457,10 @@ p {
     }
      
         .btn {
-          margin: 8% 0 0 12%;
+          margin: 8% 0 0 8%;
         }
         .close {
-          margin-left: 10rem;
+          margin-left: 17rem;
         }
    
 }
@@ -491,7 +484,7 @@ p {
           top: 10%;
           /* padding: 1.5rem 10px 0; */
          }
-          .dropdown-content {
+          .download-content {
             width: 190px;
           }
 }

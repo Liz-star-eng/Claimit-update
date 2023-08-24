@@ -18,7 +18,7 @@ document.getElementById("defaultOpen").click();
 
 var modal = document.getElementById("mySidenav");
 function openNav() {
-  modal.style.width = "60%";
+  modal.style.width = "100%";
 }
 
 function closeNav() {
