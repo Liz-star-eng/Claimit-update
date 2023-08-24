@@ -12,9 +12,7 @@
     <main>
         <section>
             <nav>
-                <a href="index.html" class="logo">
-                    <img src="images/nhis.png" alt="">
-                </a>
+                    <img class="logo" src="images/nhis.png" alt="">
                 <ul>
                 </ul>
             </nav>
@@ -23,19 +21,40 @@
                     <aside class="rightBar modal" id="mySidenav">
                         <section class="btn  modal-content">
                             <span class="close" onclick="closeNav()"><i class="fa fa-close"></i></span>
-                            <a href="docs/CLAIM-it User's Manual Quick Guide(HMS users) v2.0.pdf" download><button><i class="fa fa-download" aria-hidden="true" title="download User Manual"></i>User Manual</button></a>
-                            <a href="docs/ClaimIT_XML_specifications 2.1.pdf" download><button><i class="fa fa-download" aria-hidden="true"></i> XML Specifications</button></a>
+                            <!-- 
+                               
                             <a href="docs/Installation Steps_Centralized.pdf" download><button><i class="fa fa-download" aria-hidden="true"></i> installation steps </button></a>
-                            <a href="docs/TARIFFS OPERATION MANUAL v22.pdf" download><button><i class="fa fa-download" aria-hidden="true"></i> Tarrifs Manual</button></a>
                             <a href="docs/Update Directions_Centralized System.pdf" download><button><i class="fa fa-download" aria-hidden="true"></i> Updates Manual</button></a>
-                            <a href="docs/CLAIM-it Document_Standalone Users 2.0.2.pdf" download><button><i class="fa fa-download" aria-hidden="true"></i> Standalone Users</button></a>
+                        -->
+                            <div class="dropdown">
+                                <button class="dropbtn"><i class="fa fa-download" aria-hidden="true" title="download User Manual"></i> User Manual</button>
+                                <div class="dropdown-content">
+                                    <a href="docs/CLAIM-it User's Manual Quick Guide(HMS users) v2.0.pdf" download>User Manual</a>
+                                    <a href="docs/CLAIM-it Document_Standalone Users 2.0.2.pdf">Standalone</a>
+                                    <a href="#">HMS User</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn"><i class="fa fa-download" aria-hidden="true" title="download User Manual"></i> Integrations</button>
+                                <div class="dropdown-content">
+                                    <a href="docs/ClaimIT_XML_specifications 2.1.pdf">XML Specifications</a>
+                                    <a href="docs/XML_Sample.xml">Sample XML</a>
+                                    <a href="#">API Specifications</a>
+                                </div>
+                            </div><div class="dropdown">
+                                <button class="dropbtn"><i class="fa fa-download" aria-hidden="true" title="download User Manual"></i> Others</button>
+                                <div class="dropdown-content">
+                                    <a href="docs/TARIFFS OPERATION MANUAL v22.pdf">Tariff Manual</a>
+                                </div>
+                            </div>
+
                         </section>
                     </aside>
                 </div>
                 <section class="middle">
                     <div class="updates">
                         <i class="fa fa-bars icon" onclick="openNav()"></i>
-                        <h2><i class="fa fa-cog"></i> Available Updates</h2>
+                        <h2><i class="fa fa-cog"></i> Update Release </h2>
                     </div>
                     <div class="middleContent">
                         <div id="Sept-23-Update" class="tabContent">
@@ -131,13 +150,10 @@
                 <aside class="leftBar">
                     <div class="leftSideBar">
                         <div>
-                            <p class="first-P">Update Release <i class="fa fa-arrow-down"></i> :</p> 
-                            <!-- <p class="second-P">Updates :</p>    -->
                         </div>
                         <div class="tab">
                             <button class="tablinks" onclick="openUpdate(event, 'Sept-23-Update')" id="defaultOpen"><i class="fa fa-calendar-check-o"></i> Sept-23-update</button>
                             <button class="tablinks" onclick="openUpdate(event, 'Feb-23-Update')"><i class="fa fa-calendar-check-o"></i> Feb-23-update</button>
-                            <!-- <button class="tablinks" onclick="openUpdate(event, '3rdQuarter')"><i class="fa fa-calendar-check-o"></i> 3rd Quarter</button> -->
                             <button class="tablinks" onclick="openUpdate(event, 'Oct-22-Update')"><i class="fa fa-calendar-check-o"></i> Oct-22-update</button>
                         </div>
                     </div>    
